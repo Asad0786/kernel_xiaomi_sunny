@@ -3729,7 +3729,6 @@ static struct attribute_group mdss_fb_attr_group = {
 };
 #endif
 
-#ifdef CONFIG_MACH_XIAOMI_MOJITO
 static int dsi_display_write_panel(struct dsi_panel *panel,
 				struct dsi_panel_cmd_set *cmd_sets)
 {
@@ -5397,8 +5396,6 @@ ssize_t dsi_panel_mipi_reg_read(struct dsi_panel *panel, char *buf)
 
 	return count;
 }
-
-#endif
 
 int dsi_panel_apply_hbm_mode(struct dsi_panel *panel)
 {

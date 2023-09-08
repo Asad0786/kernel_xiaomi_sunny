@@ -240,7 +240,6 @@ struct dsi_panel {
 	bool in_aod; /* set  DISPPARAM_DOZE_BRIGHTNESS_HBM/LBM only in AOD */
 	bool nolp_command_set_backlight_enabled;
 	bool oled_panel_video_mode;
-#endif
     int hbm_mode;
 };
 

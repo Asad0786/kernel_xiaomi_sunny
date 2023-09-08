@@ -5276,8 +5276,6 @@ static DEVICE_ATTR(hbm, 0644,
 			sysfs_hbm_read,
 			sysfs_hbm_write);
 
-#ifdef CONFIG_MACH_XIAOMI_MOJITO
-
 static ssize_t dsi_display_get_whitepoint(struct device *dev,
                                struct device_attribute *attr, char *buf)
 {
